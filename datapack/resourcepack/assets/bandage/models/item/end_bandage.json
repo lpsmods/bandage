@@ -1,0 +1,6 @@
+{
+	"parent": "bandage:item/template_bandage",
+	"textures": {
+		"texture": "bandage:item/end_bandage"
+	}
+}
