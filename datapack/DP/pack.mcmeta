@@ -1,10 +1,10 @@
 {
   "pack": {
-    "pack_format": 46,
-    "version": [1, 6, 0],
+    "pack_format": 71,
+    "version": [1, 7, 0],
     "description": [
       {
-        "text": "Bandages!\n",
+        "text": "Bandages to quickly heal yourself. Perfect for PVP or PVE!\n",
         "color": "gray"
       },
       {

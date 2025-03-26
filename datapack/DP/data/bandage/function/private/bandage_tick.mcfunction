@@ -7,10 +7,10 @@
 stopsound @s player minecraft:entity.arrow.shoot
 
 # give player arrow in the offhand if they don't have one
-execute unless entity @s[nbt={Inventory:[{id: "minecraft:arrow"}]}] unless entity @s[nbt={Inventory:[{Slot:-106b}]}] run item replace entity @s weapon.offhand with arrow[item_model="bandage:invisible",hide_tooltip={},custom_data={"invisible":true}]
+execute unless entity @s[nbt={equipment:{offhand: {id: "minecraft:arrow"}}}] unless data entity @s equipment.offhand run item replace entity @s weapon.offhand with arrow[item_model="bandage:invisible",tooltip_display={hide_tooltip:true},custom_data={invisible:true}]
 
 # error is player has item in offhand
-execute unless entity @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{invisible:true}}}]}] run title @p actionbar [{"translate":"bandage.offhand_item","color":"red"}]
+execute unless entity @s[nbt={equipment:{offhand:{components:{"minecraft:custom_data":{invisible:true}}}}}] run title @p actionbar [{"translate":"bandage.offhand_item","color":"red"}]
 
 # bandage
 execute as @a[scores={bandage.UsedBow=1..}] at @s if entity @e[type=arrow,sort=nearest,nbt={crit:1b}] run function bandage:private/used
