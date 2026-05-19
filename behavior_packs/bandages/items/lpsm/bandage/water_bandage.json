@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lpsm_bandages:water_bandage",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": "lpsm_bandages:water_bandage",
+      "lpsm_bandages:bandage": [{ "effect": "water_breathing", "duration": 1200 }]
+    }
+  }
+}

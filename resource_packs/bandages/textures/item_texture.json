@@ -1,0 +1,21 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "lpsm_bandages:guide_book": {
+      "textures": "textures/lpsm/bandages/items/guide_book.png"
+    },
+    "lpsm_bandages:bandage": {
+      "textures": "textures/lpsm/bandages/items/bandage.png"
+    },
+    "lpsm_bandages:end_bandage": {
+      "textures": "textures/lpsm/bandages/items/end_bandage.png"
+    },
+    "lpsm_bandages:nether_bandage": {
+      "textures": "textures/lpsm/bandages/items/nether_bandage.png"
+    },
+    "lpsm_bandages:water_bandage": {
+      "textures": "textures/lpsm/bandages/items/water_bandage.png"
+    }
+  }
+}
