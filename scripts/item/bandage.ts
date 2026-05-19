@@ -14,7 +14,7 @@ export class BandageComponent {
       effect: string(),
       duration: defaulted(number(), 1200),
       amplifier: optional(number()),
-    })
+    }),
   );
 
   constructor() {
