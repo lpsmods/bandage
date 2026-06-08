@@ -1,0 +1,7 @@
+{
+  "env": {
+    "dataSource": "GitHub",
+    "gameVersion": "Latest release",
+		"permissionLevel": 2
+  }
+}
